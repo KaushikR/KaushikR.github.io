@@ -1,0 +1,91 @@
+/*
+API Key : AIzaSyCMuMu9f4aj2lJntzjuxWyegIC3VAQd3gQ
+This is a custom CSS for daibodha
+
+*/
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;  
+
+}
+
+/*
+ *	Div containing the locator and associated stuff
+ */
+.location{
+	text-align: center;	
+/*font-family: "Sans-Serif";*/
+	font-family: "Arvo";		
+	padding-bottom: 20px;
+	height: 500px;
+	background-image: url('../bottles.jpg');
+}
+
+/*
+ * Same as above, but one div inner.
+ */
+.location .container{
+	padding-top: 100px;
+}
+
+/*
+* Show me Sarakku button.
+*/
+.btn-lg{
+	font-size: 3.2em;
+	font-family: 'Changa One';
+}
+
+
+/*
+ * Padding on top of the rows
+ */
+.row{
+	padding-top: 3em;
+}
+
+
+/*
+ * "Usage" of each column
+ */
+span {
+	font-size: 2em;
+}
+
+
+/*
+ * To center align the rows
+ */ 
+.container .row{
+	text-align: center;
+}
+
+/*
+ * To enter location
+ */
+.locator__search {
+font-size: 3rem;
+width: 40%;
+display: block;
+margin: 0 auto;
+padding: 1rem 1rem 0.5rem 1rem;
+color: #cccccc;
+border: 0.1rem solid black;
+}
+
+/*
+ *	Pg2 - Don't drink and drive message
+ */
+finalmessage{
+font-size:30px;
+color: red;
+}
+
+/*
+ * Craptivate Image in the footer
+ */
+img {
+	width: 120px;
+	height: 40px;
+}
